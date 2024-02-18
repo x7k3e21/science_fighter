@@ -1,0 +1,19 @@
+{
+  "name": "science_fighter",
+  "main": "sources/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/x7k3e21/science_fighter.git"
+  },
+  "author": "x7k3e21",
+  "bugs": {
+    "url": "https://github.com/x7k3e21/science_fighter/issues"
+  },
+  "homepage": "https://github.com/x7k3e21/science_fighter#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
