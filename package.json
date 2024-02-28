@@ -2,7 +2,8 @@
   "name": "science_fighter",
   "main": "sources/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node sources/server.js",
+    "debug": "node -r dotenv/config sources/server.js"
   },
   "repository": {
     "type": "git",

@@ -3,6 +3,8 @@ const express = require("express");
 
 const application = express();
 
+application.use(express.json());
+
 application.get("/", (request, response) =>
 {
     response.send("Hello, world!");
